@@ -1,5 +1,7 @@
 package com.aor.numbers;
 
+import org.junit.jupiter.api.BeforeEach;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -12,6 +14,7 @@ public class ListAggregator {
      * Sums all numbers in a list.
      * @return The sum of all the values in the list.
      */
+    @BeforeEach
     public List<Integer> helper(){
         List <Integer> lista= Arrays.asList(-1,-4,-5);
         return lista;
